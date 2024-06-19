@@ -6902,7 +6902,7 @@
             {
                 "name": "Solar Beam",
                 "base": "260 + (100 * Charge)",
-                "formula": "260 + (100 * Charge) + (37.5% Magic * Charge)",
+                "formula": "37.5% Magic * Charge",
                 "cd": 26
             }
         ]
@@ -6925,7 +6925,7 @@
             {
                 "name": "Basic Attack",
                 "base": "160 to 320",
-                "formula": "(160 to 320) + (40% to 170% Magic)"
+                "formula": "40% to 170% Magic"
             },
             {
                 "name": "Bolt of Dreams",
@@ -8869,22 +8869,22 @@
         "release": "rn",
         "image": "5/5b/Pureblood_Dagger.png",
         "link": "Pureblood_Dagger",
-        "abilityNote": "Damage Bonuses = Magic, Melee, Ranged\nHighestBonus = Highest Damage Bonus\nLowerBonuses = Remaining Damage Bonuses",
+        "abilityNote": "Damage Bonuses = Magic, Melee, Ranged\nHB = Highest Damage Bonus\nRB = Remaining Damage Bonuses",
         "abilities": [
             {
                 "name": "Basic Attack",
                 "base": 175,
-                "formula": "200% HighestBonus - 100% LowerBonuses"
+                "formula": "200% HB - 100% RB"
             },
             {
                 "name": "Blood Sap",
                 "base": 175,
-                "formula": "200% HighestBonus - 100% LowerBonuses"
+                "formula": "200% HB - 100% RB"
             },
             {
                 "name": "+ HP per Blood Sap",
                 "base": 87.5,
-                "formula": "(200% HighestBonus - 100% LowerBonuses) / 2",
+                "formula": "(200% HB - 100% RB) / 2",
                 "cd": 16
             }
         ]
