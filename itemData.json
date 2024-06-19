@@ -2,7 +2,9 @@
     {
         "name": "Bronze Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 3
+        },
         "cost": {
             "min": 140,
             "max": 140
@@ -16,7 +18,9 @@
     {
         "name": "Iron Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 4
+        },
         "cost": {
             "min": 560,
             "max": 560
@@ -30,7 +34,9 @@
     {
         "name": "Cobalt Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 5
+        },
         "cost": {
             "min": 3500,
             "max": 3500
@@ -44,7 +50,9 @@
     {
         "name": "Titanium Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 6
+        },
         "cost": {
             "min": 14000,
             "max": 14000
@@ -58,7 +66,9 @@
     {
         "name": "Gold Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 8
+        },
         "cost": {
             "min": 35000,
             "max": 35000
@@ -72,7 +82,9 @@
     {
         "name": "Onyx Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 9
+        },
         "cost": {
             "min": 70000,
             "max": 70000
@@ -86,7 +98,10 @@
     {
         "name": "Blue Wizard Hat",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 5,
+            "magicDmg": 25
+        },
         "cost": {
             "min": 185000,
             "max": 185000
@@ -100,7 +115,11 @@
     {
         "name": "Brash Knight Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 8,
+            "meleeDmg": 10,
+            "rangedDmg": 10
+        },
         "cost": {
             "min": 70000,
             "max": 70000
@@ -114,7 +133,11 @@
     {
         "name": "Celestial Moon Hat",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 7,
+            "magicDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -128,7 +151,10 @@
     {
         "name": "Courting Knight Helmet",
         "slot": "head",
-        "stats": ["armor", "hpRegen"],
+        "stats": {
+            "armor": 9,
+            "hpRegen": 0.8
+        },
         "cost": {
             "min": 160000,
             "max": 160000
@@ -142,7 +168,10 @@
     {
         "name": "Dark Hunter Hat",
         "slot": "head",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 5,
+            "rangedDmg": 25
+        },
         "cost": {
             "min": 185000,
             "max": 185000
@@ -156,7 +185,11 @@
     {
         "name": "Darkwood Warrior Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 12,
+            "meleeDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 600000,
             "max": 600000
@@ -170,7 +203,10 @@
     {
         "name": "Furnace Mummy Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 1260000,
             "max": 1260000
@@ -184,7 +220,10 @@
     {
         "name": "Galaxy Wizard Hat",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 10,
+            "magicDmg": 65
+        },
         "cost": {
             "min": 1260000,
             "max": 1260000
@@ -198,7 +237,12 @@
     {
         "name": "Guardian Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 16,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55
+        },
         "cost": {
             "min": 1800000,
             "max": 1800000
@@ -212,7 +256,9 @@
     {
         "name": "Hardened Bronze Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 9
+        },
         "cost": {
             "min": 100000,
             "max": 100000
@@ -226,7 +272,9 @@
     {
         "name": "Hedge Knight Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 8
+        },
         "cost": {
             "min": 45000,
             "max": 45000
@@ -240,7 +288,9 @@
     {
         "name": "Illuminator's Hat",
         "slot": "head",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 15
+        },
         "cost": {
             "min": 75000,
             "max": 75000
@@ -254,7 +304,10 @@
     {
         "name": "Ivory Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 11,
+            "meleeDmg": 25
+        },
         "cost": {
             "min": 300000,
             "max": 300000
@@ -268,7 +321,11 @@
     {
         "name": "Jade Assassin's Mask",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 7,
+            "meleeDmg": 8,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 115000,
             "max": 115000
@@ -282,7 +339,10 @@
     {
         "name": "Lagoon Spirit Head",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 8,
+            "magicDmg": 40
+        },
         "cost": {
             "min": 590000,
             "max": 590000
@@ -296,7 +356,10 @@
     {
         "name": "Mortmud Hood",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 5,
+            "magicDmg": 15
+        },
         "cost": {
             "min": 65000,
             "max": 65000
@@ -310,7 +373,9 @@
     {
         "name": "Patched Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 8
+        },
         "cost": {
             "min": 35000,
             "max": 35000
@@ -324,7 +389,10 @@
     {
         "name": "Razed General Hat",
         "slot": "head",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 10,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 1260000,
             "max": 1260000
@@ -338,7 +406,10 @@
     {
         "name": "Red Wizard Hat",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 5,
+            "magicDmg": 25
+        },
         "cost": {
             "min": 185000,
             "max": 185000
@@ -352,7 +423,9 @@
     {
         "name": "Riveted Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 6
+        },
         "cost": {
             "min": 14000,
             "max": 14000
@@ -366,7 +439,9 @@
     {
         "name": "Skull",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 3
+        },
         "cost": {
             "min": 200000,
             "max": 200000
@@ -380,7 +455,10 @@
     {
         "name": "Spikeout Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 6,
+            "meleeDmg": 15
+        },
         "cost": {
             "min": 70000,
             "max": 70000
@@ -394,7 +472,10 @@
     {
         "name": "Springtwig Eye",
         "slot": "head",
-        "stats": ["walkSpeed", "jumpPower"],
+        "stats": {
+            "walkSpeed": 1,
+            "jumpPower": 11
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -408,7 +489,10 @@
     {
         "name": "Tomb Prowler Hat",
         "slot": "head",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 12,
+            "rangedDmg": 40
+        },
         "cost": {
             "min": 590000,
             "max": 590000
@@ -422,7 +506,11 @@
     {
         "name": "Void Monster Mask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 30,
+            "meleeDmg": 30
+        },
         "cost": {
             "min": 600000,
             "max": 600000
@@ -436,7 +524,10 @@
     {
         "name": "Woodland Ranger Hat",
         "slot": "head",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 5,
+            "rangedDmg": 15
+        },
         "cost": {
             "min": 90000,
             "max": 90000
@@ -450,7 +541,9 @@
     {
         "name": "Zhuulaczar Crown",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 10
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -464,7 +557,11 @@
     {
         "name": "Chasm Magus Hat",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "sightRange"],
+        "stats": {
+            "armor": 11,
+            "magicDmg": 60,
+            "sightRange": 15
+        },
         "cost": {
             "min": 1500000,
             "max": 1500000
@@ -478,7 +575,12 @@
     {
         "name": "Crabsuit Headgear",
         "slot": "head",
-        "stats": ["armor", "endurance", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 10,
+            "endurance": 5,
+            "walkSpeed": 1,
+            "jumpPower": 8
+        },
         "cost": {
             "min": 800000,
             "max": 800000
@@ -492,7 +594,12 @@
     {
         "name": "Gardendweller's Hat",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 5,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55
+        },
         "cost": {
             "min": 320000,
             "max": 320000
@@ -506,7 +613,11 @@
     {
         "name": "Gauntlet Fury Helmet",
         "slot": "head",
-        "stats": ["armor", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 12,
+            "rangedDmg": 55,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 1350000,
             "max": 1500000
@@ -520,7 +631,12 @@
     {
         "name": "Guild Knight Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 70,
+            "hpRegen": 3.2,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 4000000,
             "max": 4200000
@@ -534,7 +650,12 @@
     {
         "name": "Knight's Army Core",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 10,
+            "meleeDmg": 35,
+            "rangedDmg": 60,
+            "hpRegen": 3.2
+        },
         "cost": {
             "min": 1800000,
             "max": 2000000
@@ -548,14 +669,14 @@
     {
         "name": "Odewig Helmet",
         "slot": "head",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "endurance",
-            "walkSpeed"
-        ],
+        "stats": {
+            "armor": 16,
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "rangedDmg": 50,
+            "endurance": 3.5,
+            "walkSpeed": -1
+        },
         "cost": {
             "min": 2000000,
             "max": 2000000
@@ -569,7 +690,11 @@
     {
         "name": "Pettyganger's Parade Mask",
         "slot": "head",
-        "stats": ["armor", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 5,
+            "walkSpeed": 2,
+            "jumpPower": 5
+        },
         "cost": {
             "min": 4200000,
             "max": 5000000
@@ -583,7 +708,11 @@
     {
         "name": "Poison Construct Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 6,
+            "magicDmg": 70,
+            "endurance": 7
+        },
         "cost": {
             "min": 1800000,
             "max": 1800000
@@ -597,7 +726,11 @@
     {
         "name": "Rotted King's Mask",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "hpRegen"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 65,
+            "hpRegen": 3.2
+        },
         "cost": {
             "min": 3200000,
             "max": 3500000
@@ -611,7 +744,11 @@
     {
         "name": "Spellbound Mage Hood",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "walkSpeed"],
+        "stats": {
+            "armor": 8,
+            "magicDmg": 60,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 1400000,
             "max": 1400000
@@ -625,7 +762,10 @@
     {
         "name": "Earth King Regalia",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -639,7 +779,12 @@
     {
         "name": "The Mask of Forgotten Things",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 4500000,
             "max": 5000000
@@ -653,7 +798,13 @@
     {
         "name": "The Vengeful Visage",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 25,
+            "meleeDmg": 25,
+            "rangedDmg": 25,
+            "endurance": 9
+        },
         "cost": {
             "min": 2000000,
             "max": 2000000
@@ -667,7 +818,10 @@
     {
         "name": "Void Lord Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 16,
+            "meleeDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -681,7 +835,11 @@
     {
         "name": "Wolfram Leader Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 10,
+            "meleeDmg": 70,
+            "endurance": 7
+        },
         "cost": {
             "min": 1800000,
             "max": 1800000
@@ -695,7 +853,10 @@
     {
         "name": "World Sculptor's Helmet",
         "slot": "head",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -709,7 +870,11 @@
     {
         "name": "Aquatic Explorer Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "meleeDmg": 75,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 3800000,
             "max": 3800000
@@ -723,7 +888,13 @@
     {
         "name": "Helm of the Skater",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 16,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65,
+            "endurance": 11
+        },
         "cost": {
             "min": 6800000,
             "max": 7500000
@@ -737,7 +908,12 @@
     {
         "name": "New Voice Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 70,
+            "hpRegen": 3.2,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 4400000,
             "max": 4400000
@@ -751,7 +927,10 @@
     {
         "name": "Romo Helmet",
         "slot": "head",
-        "stats": ["armor", "hpRegen"],
+        "stats": {
+            "armor": 16,
+            "hpRegen": 12
+        },
         "cost": {
             "min": 8800000,
             "max": 8800000
@@ -765,7 +944,12 @@
     {
         "name": "Wisecrack Skull",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 60,
+            "meleeDmg": 65,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 4500000,
             "max": 4500000
@@ -779,7 +963,12 @@
     {
         "name": "Woodwhack Legionnaire Helmet",
         "slot": "head",
-        "stats": ["armor", "rangedDmg", "sightRange", "jumpPower"],
+        "stats": {
+            "armor": 11,
+            "rangedDmg": 55,
+            "sightRange": 15,
+            "jumpPower": 12
+        },
         "cost": {
             "min": 1800000,
             "max": 1800000
@@ -793,7 +982,11 @@
     {
         "name": "Bedrock Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 16,
+            "meleeDmg": 90,
+            "walkSpeed": -1
+        },
         "cost": {
             "min": 5200000,
             "max": 5500000
@@ -807,7 +1000,10 @@
     {
         "name": "Corrupted Gold Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 13,
+            "meleeDmg": 75
+        },
         "cost": {
             "min": 7000000,
             "max": 7000000
@@ -821,7 +1017,10 @@
     {
         "name": "Corrupted Onyx Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 16,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 2500000,
             "max": 7000000
@@ -835,7 +1034,13 @@
     {
         "name": "Falling Light Mask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "walkSpeed"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": null,
             "max": null
@@ -849,7 +1054,11 @@
     {
         "name": "Fire Hood",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "walkSpeed"],
+        "stats": {
+            "armor": 9,
+            "magicDmg": 65,
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -863,7 +1072,12 @@
     {
         "name": "Guttermouth Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 60,
+            "meleeDmg": 60,
+            "endurance": 5
+        },
         "cost": {
             "min": 7500000,
             "max": 7500000
@@ -877,7 +1091,11 @@
     {
         "name": "Ice Hood",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 9,
+            "magicDmg": 75,
+            "endurance": 3
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -891,7 +1109,11 @@
     {
         "name": "Nightmare Prowler Hat",
         "slot": "head",
-        "stats": ["armor", "rangedDmg", "ammoReturn"],
+        "stats": {
+            "armor": 13,
+            "rangedDmg": 75,
+            "ammoReturn": 5
+        },
         "cost": {
             "min": 5800000,
             "max": 6000000
@@ -905,7 +1127,13 @@
     {
         "name": "Pantry Leech Head",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55,
+            "hpRegen": 5
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -919,7 +1147,11 @@
     {
         "name": "Rising Dark Mask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 70,
+            "meleeDmg": 70
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -933,18 +1165,18 @@
     {
         "name": "Roadblocks Head",
         "slot": "head",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "hpRegen",
-            "endurance",
-            "sightRange",
-            "walkSpeed",
-            "jumpPower",
-            "ammoReturn"
-        ],
+        "stats": {
+            "armor": 3,
+            "magicDmg": 3,
+            "meleeDmg": 3,
+            "rangedDmg": 3,
+            "hpRegen": 3,
+            "endurance": 3,
+            "sightRange": 3,
+            "walkSpeed": 3,
+            "jumpPower": 3,
+            "ammoReturn": 3
+        },
         "cost": {
             "min": 20000000,
             "max": 20000000
@@ -958,7 +1190,12 @@
     {
         "name": "U-Life Helmet",
         "slot": "head",
-        "stats": ["armor", "rangedDmg", "hpRegen", "walkSpeed"],
+        "stats": {
+            "armor": 12,
+            "rangedDmg": 60,
+            "hpRegen": 3.2,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -972,7 +1209,10 @@
     {
         "name": "Wired Fury Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 11,
+            "meleeDmg": 90
+        },
         "cost": {
             "min": 5500000,
             "max": 5500000
@@ -986,7 +1226,11 @@
     {
         "name": "Green Spectral Vanguard Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 8,
+            "magicDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -1000,7 +1244,11 @@
     {
         "name": "Blue Spectral Vanguard Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 8,
+            "meleeDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -1014,7 +1262,11 @@
     {
         "name": "Purple Spectral Vanguard Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 8,
+            "magicDmg": 75,
+            "meleeDmg": 75
+        },
         "cost": {
             "min": 2600000,
             "max": 2600000
@@ -1028,7 +1280,12 @@
     {
         "name": "Black Spectral Vanguard Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 11,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -1042,7 +1299,12 @@
     {
         "name": "White Spectral Vanguard Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 11,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -1056,7 +1318,12 @@
     {
         "name": "True Spectral Vanguard Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 100,
+            "meleeDmg": 100,
+            "rangedDmg": 100
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -1070,7 +1337,12 @@
     {
         "name": "Fire Guild Knight Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 70,
+            "hpRegen": 1.6,
+            "endurance": 5
+        },
         "cost": {
             "min": 4800000,
             "max": 4800000
@@ -1084,7 +1356,12 @@
     {
         "name": "Water Guild Knight Helmet",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 70,
+            "hpRegen": 4.8,
+            "endurance": 1.5
+        },
         "cost": {
             "min": 4800000,
             "max": 4800000
@@ -1098,7 +1375,12 @@
     {
         "name": "Temple Fool Head",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 13,
+            "magicDmg": 70,
+            "meleeDmg": 70,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 5200000,
             "max": 5200000
@@ -1112,7 +1394,13 @@
     {
         "name": "Machine Rug Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 16,
+            "magicDmg": 70,
+            "meleeDmg": 80,
+            "rangedDmg": 90,
+            "endurance": 5
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -1126,7 +1414,13 @@
     {
         "name": "Mr. Techy Techy Head Protector",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg", "endurance", "ammoReturn"],
+        "stats": {
+            "armor": 16,
+            "meleeDmg": 75,
+            "rangedDmg": 75,
+            "endurance": 3.5,
+            "ammoReturn": 20
+        },
         "cost": {
             "min": 25000000,
             "max": 25000000
@@ -1140,7 +1434,9 @@
     {
         "name": "Royal Bronze Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 3
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1154,7 +1450,9 @@
     {
         "name": "Royal Iron Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 4
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1168,7 +1466,9 @@
     {
         "name": "Royal Cobalt Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 5
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1182,7 +1482,9 @@
     {
         "name": "Royal Titanium Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 6
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1196,7 +1498,9 @@
     {
         "name": "Royal Gold Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 8
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1210,7 +1514,9 @@
     {
         "name": "Royal Onyx Helmet",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 9
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1224,7 +1530,9 @@
     {
         "name": "Brickland",
         "slot": "head",
-        "stats": ["hpRegen"],
+        "stats": {
+            "hpRegen": 20
+        },
         "cost": {
             "min": 6000000,
             "max": 7000000
@@ -1238,7 +1546,12 @@
     {
         "name": "Century Cube",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 8800000,
             "max": 8800000
@@ -1252,7 +1565,12 @@
     {
         "name": "Clever Cube",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 10,
+            "magicDmg": 60,
+            "meleeDmg": 60,
+            "rangedDmg": 60
+        },
         "cost": {
             "min": 2200000,
             "max": 2200000
@@ -1266,7 +1584,10 @@
     {
         "name": "Corrupted Wizard's Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 40
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1280,7 +1601,12 @@
     {
         "name": "Cosmic Ghost Mask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 16,
+            "magicDmg": 70,
+            "meleeDmg": 70,
+            "rangedDmg": 70
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1294,7 +1620,11 @@
     {
         "name": "Crescent Coralhead",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 7,
+            "magicDmg": 50,
+            "endurance": 8
+        },
         "cost": {
             "min": 650000,
             "max": 650000
@@ -1308,7 +1638,11 @@
     {
         "name": "Criminal's Tallhat",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 13,
+            "meleeDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 5000000,
             "max": 5100000
@@ -1322,7 +1656,9 @@
     {
         "name": "Dark Ghost Mask",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 10
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1336,7 +1672,11 @@
     {
         "name": "Detour Cone",
         "slot": "head",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "meleeDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 5200000,
             "max": 5200000
@@ -1350,7 +1690,9 @@
     {
         "name": "Far North Mask",
         "slot": "head",
-        "stats": ["magicDmg"],
+        "stats": {
+            "magicDmg": 75
+        },
         "cost": {
             "min": 2235000,
             "max": 2235000
@@ -1364,7 +1706,9 @@
     {
         "name": "Fashion Hat",
         "slot": "head",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 1200000,
             "max": 1200000
@@ -1378,7 +1722,11 @@
     {
         "name": "Fear",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": -16,
+            "magicDmg": 100,
+            "meleeDmg": 200
+        },
         "cost": {
             "min": 50000000,
             "max": 50000000
@@ -1392,7 +1740,9 @@
     {
         "name": "Ghost Mask",
         "slot": "head",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 5
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1406,7 +1756,11 @@
     {
         "name": "Gold",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": -16,
+            "magicDmg": 100,
+            "rangedDmg": 200
+        },
         "cost": {
             "min": 50000000,
             "max": 50000000
@@ -1420,7 +1774,10 @@
     {
         "name": "Hive Crown",
         "slot": "head",
-        "stats": ["magicDmg", "hpRegen"],
+        "stats": {
+            "magicDmg": 30,
+            "hpRegen": 2
+        },
         "cost": {
             "min": 1200000,
             "max": 1200000
@@ -1434,7 +1791,12 @@
     {
         "name": "Kitchen Cube",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 5,
+            "magicDmg": 40,
+            "meleeDmg": 40,
+            "rangedDmg": 40
+        },
         "cost": {
             "min": 880000,
             "max": 880000
@@ -1448,7 +1810,12 @@
     {
         "name": "Krunkston Four",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 100,
+            "meleeDmg": 100,
+            "rangedDmg": 100
+        },
         "cost": {
             "min": 9000000,
             "max": 10000000
@@ -1462,7 +1829,11 @@
     {
         "name": "Maskhat",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 8,
+            "magicDmg": 70,
+            "rangedDmg": 70
+        },
         "cost": {
             "min": 4770000,
             "max": 4770000
@@ -1476,7 +1847,9 @@
     {
         "name": "Magic Fox Headdress",
         "slot": "head",
-        "stats": ["magicDmg"],
+        "stats": {
+            "magicDmg": 100
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -1490,7 +1863,7 @@
     {
         "name": "Minion",
         "slot": "head",
-        "stats": [],
+        "stats": {},
         "cost": {
             "min": 7000000,
             "max": 10000000
@@ -1504,7 +1877,9 @@
     {
         "name": "Monster Mask",
         "slot": "head",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 20
+        },
         "cost": {
             "min": 100000,
             "max": 100000
@@ -1518,7 +1893,11 @@
     {
         "name": "Neon Flint's Cap",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 5,
+            "magicDmg": 20,
+            "rangedDmg": 20
+        },
         "cost": {
             "min": 200000,
             "max": 200000
@@ -1532,7 +1911,13 @@
     {
         "name": "Nightingale Mask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 75,
+            "meleeDmg": 75,
+            "rangedDmg": 75,
+            "endurance": 11
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1546,7 +1931,12 @@
     {
         "name": "Nightmare Visage",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1560,7 +1950,9 @@
     {
         "name": "Oculus Adcuratus",
         "slot": "head",
-        "stats": ["rangedDmg"],
+        "stats": {
+            "rangedDmg": 100
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -1574,7 +1966,10 @@
     {
         "name": "Otherworld Slug",
         "slot": "head",
-        "stats": ["magicDmg", "walkSpeed"],
+        "stats": {
+            "magicDmg": 200,
+            "walkSpeed": -5
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1588,7 +1983,9 @@
     {
         "name": "Outlaw's Cap",
         "slot": "head",
-        "stats": ["rangedDmg"],
+        "stats": {
+            "rangedDmg": 50
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -1602,7 +1999,11 @@
     {
         "name": "Philmore's Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 65,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 2500000,
             "max": 2600000
@@ -1616,7 +2017,13 @@
     {
         "name": "Plain Fishmask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 10,
+            "magicDmg": 70,
+            "meleeDmg": 70,
+            "rangedDmg": 70,
+            "endurance": 5
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1630,7 +2037,12 @@
     {
         "name": "Plasma Ghost Mask",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 35,
+            "meleeDmg": 35,
+            "rangedDmg": 35
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1644,7 +2056,9 @@
     {
         "name": "Propaganda Head",
         "slot": "head",
-        "stats": ["endurance"],
+        "stats": {
+            "endurance": 17
+        },
         "cost": {
             "min": 18000000,
             "max": 20000000
@@ -1658,7 +2072,11 @@
     {
         "name": "Punk",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": -8,
+            "magicDmg": 80,
+            "meleeDmg": 40
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -1672,7 +2090,12 @@
     {
         "name": "Puzzlehead",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 13,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 3000000,
             "max": 3000000
@@ -1686,7 +2109,9 @@
     {
         "name": "Red Yesterday Hat",
         "slot": "head",
-        "stats": ["endurance"],
+        "stats": {
+            "endurance": 8
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -1700,7 +2125,11 @@
     {
         "name": "Strangeman's Mask",
         "slot": "head",
-        "stats": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "magicDmg": 111,
+            "meleeDmg": 111,
+            "rangedDmg": 111
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -1714,7 +2143,9 @@
     {
         "name": "Tall Anthony",
         "slot": "head",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 100
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -1728,7 +2159,13 @@
     {
         "name": "The Pommel's Helmet",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55,
+            "hpRegen": 4
+        },
         "cost": {
             "min": null,
             "max": null
@@ -1742,7 +2179,10 @@
     {
         "name": "Von Jerry's Hat of Illusion",
         "slot": "head",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 8,
+            "magicDmg": 88
+        },
         "cost": {
             "min": 6200000,
             "max": 6500000
@@ -1756,7 +2196,11 @@
     {
         "name": "Yaaxil Flame",
         "slot": "head",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": -10,
+            "magicDmg": 30,
+            "meleeDmg": 95
+        },
         "cost": {
             "min": 3600000,
             "max": 3750000
@@ -1770,7 +2214,9 @@
     {
         "name": "Frog Costume #1 - Head",
         "slot": "head",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 3
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -1784,7 +2230,9 @@
     {
         "name": "Frog Costume #2 - Head",
         "slot": "head",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 6
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -1798,7 +2246,9 @@
     {
         "name": "Frog Costume #3 - Head",
         "slot": "head",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 9
+        },
         "cost": {
             "min": 3500000,
             "max": 3500000
@@ -1812,7 +2262,9 @@
     {
         "name": "Frog Costume #4 - Head",
         "slot": "head",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 12
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -1826,7 +2278,9 @@
     {
         "name": "Frog Costume #5 - Head",
         "slot": "head",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 15
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -1840,7 +2294,9 @@
     {
         "name": "Bronze Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 5
+        },
         "cost": {
             "min": 360,
             "max": 360
@@ -1854,7 +2310,9 @@
     {
         "name": "Iron Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 8
+        },
         "cost": {
             "min": 1400,
             "max": 1400
@@ -1868,7 +2326,9 @@
     {
         "name": "Cobalt Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 11
+        },
         "cost": {
             "min": 8900,
             "max": 8900
@@ -1882,7 +2342,9 @@
     {
         "name": "Titanium Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 14
+        },
         "cost": {
             "min": 35000,
             "max": 35000
@@ -1896,7 +2358,9 @@
     {
         "name": "Gold Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 17
+        },
         "cost": {
             "min": 90000,
             "max": 90000
@@ -1910,7 +2374,9 @@
     {
         "name": "Onyx Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 20
+        },
         "cost": {
             "min": 180000,
             "max": 180000
@@ -1924,7 +2390,10 @@
     {
         "name": "Blue Wizard Robe Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 13,
+            "magicDmg": 25
+        },
         "cost": {
             "min": 425000,
             "max": 425000
@@ -1938,7 +2407,11 @@
     {
         "name": "Brash Knight Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 17,
+            "meleeDmg": 10,
+            "rangedDmg": 10
+        },
         "cost": {
             "min": 180000,
             "max": 180000
@@ -1952,7 +2425,11 @@
     {
         "name": "Celestial Moon Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 18,
+            "magicDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -1966,7 +2443,10 @@
     {
         "name": "Courting Knight Torso",
         "slot": "body",
-        "stats": ["armor", "hpRegen"],
+        "stats": {
+            "armor": 20,
+            "hpRegen": 0.8
+        },
         "cost": {
             "min": 400000,
             "max": 400000
@@ -1980,7 +2460,10 @@
     {
         "name": "Dark Hunter Top",
         "slot": "body",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 13,
+            "rangedDmg": 25
+        },
         "cost": {
             "min": 425000,
             "max": 425000
@@ -1994,7 +2477,11 @@
     {
         "name": "Darkwood Warrior Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 30,
+            "meleeDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 1350000,
             "max": 1350000
@@ -2008,7 +2495,10 @@
     {
         "name": "Furnace Mummy Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 35,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 2640000,
             "max": 2640000
@@ -2022,7 +2512,10 @@
     {
         "name": "Galaxy Wizard Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 24,
+            "magicDmg": 65
+        },
         "cost": {
             "min": 2640000,
             "max": 2640000
@@ -2044,7 +2537,12 @@
     {
         "name": "Guardian Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 38,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55
+        },
         "cost": {
             "min": 3850000,
             "max": 3850000
@@ -2058,7 +2556,9 @@
     {
         "name": "Hardened Bronze Platebody",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 20
+        },
         "cost": {
             "min": 200000,
             "max": 200000
@@ -2072,7 +2572,9 @@
     {
         "name": "Hedge Knight Torso",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 17
+        },
         "cost": {
             "min": 105000,
             "max": 105000
@@ -2086,7 +2588,9 @@
     {
         "name": "Illuminator's Top",
         "slot": "body",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 15
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -2100,7 +2604,10 @@
     {
         "name": "Ivory Chestpiece",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 22,
+            "meleeDmg": 25
+        },
         "cost": {
             "min": 400000,
             "max": 400000
@@ -2114,7 +2621,11 @@
     {
         "name": "Jade Assassin's Torso",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 8,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -2128,7 +2639,10 @@
     {
         "name": "Lagoon Spirit Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 19,
+            "magicDmg": 40
+        },
         "cost": {
             "min": 1230000,
             "max": 1230000
@@ -2142,7 +2656,10 @@
     {
         "name": "Mortmud Wraps",
         "slot": "body",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 15
+        },
         "cost": {
             "min": 160000,
             "max": 160000
@@ -2156,7 +2673,9 @@
     {
         "name": "Patched Torso",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 17
+        },
         "cost": {
             "min": 90000,
             "max": 90000
@@ -2170,7 +2689,10 @@
     {
         "name": "Razed General Torso",
         "slot": "body",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 24,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 2640000,
             "max": 2640000
@@ -2184,7 +2706,10 @@
     {
         "name": "Red Wizard Robe Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 13,
+            "magicDmg": 25
+        },
         "cost": {
             "min": 425000,
             "max": 425000
@@ -2198,7 +2723,9 @@
     {
         "name": "Riveted Torso",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 14
+        },
         "cost": {
             "min": 35000,
             "max": 35000
@@ -2212,7 +2739,9 @@
     {
         "name": "Skeleton Torso",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 3
+        },
         "cost": {
             "min": 200000,
             "max": 200000
@@ -2226,7 +2755,10 @@
     {
         "name": "Spikeout Chestpiece",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 14,
+            "meleeDmg": 15
+        },
         "cost": {
             "min": 180000,
             "max": 180000
@@ -2240,7 +2772,10 @@
     {
         "name": "Springtwig Torso",
         "slot": "body",
-        "stats": ["walkSpeed", "jumpPower"],
+        "stats": {
+            "walkSpeed": 1,
+            "jumpPower": 11
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -2254,7 +2789,10 @@
     {
         "name": "Tomb Prowler Torso",
         "slot": "body",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 19,
+            "rangedDmg": 40
+        },
         "cost": {
             "min": 1230000,
             "max": 1230000
@@ -2268,7 +2806,11 @@
     {
         "name": "Void Monster Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 30,
+            "meleeDmg": 30
+        },
         "cost": {
             "min": 1350000,
             "max": 1350000
@@ -2282,7 +2824,10 @@
     {
         "name": "Woodland Ranger Torso",
         "slot": "body",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 12,
+            "rangedDmg": 15
+        },
         "cost": {
             "min": 150000,
             "max": 150000
@@ -2296,7 +2841,9 @@
     {
         "name": "Zhuulaczar Armored Body",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 35
+        },
         "cost": {
             "min": 850000,
             "max": 850000
@@ -2310,7 +2857,11 @@
     {
         "name": "Chasm Magus Robe Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "sightRange"],
+        "stats": {
+            "armor": 28,
+            "magicDmg": 60,
+            "sightRange": 15
+        },
         "cost": {
             "min": 2700000,
             "max": 2700000
@@ -2324,7 +2875,12 @@
     {
         "name": "Crabsuit Top",
         "slot": "body",
-        "stats": ["armor", "endurance", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 24,
+            "endurance": 5,
+            "walkSpeed": 1,
+            "jumpPower": 8
+        },
         "cost": {
             "min": 1200000,
             "max": 1200000
@@ -2338,7 +2894,12 @@
     {
         "name": "Gardendweller Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55
+        },
         "cost": {
             "min": 700000,
             "max": 700000
@@ -2352,7 +2913,11 @@
     {
         "name": "Gauntlet Fury Platebody",
         "slot": "body",
-        "stats": ["armor", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 30,
+            "rangedDmg": 55,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 2500000,
             "max": 2700000
@@ -2366,7 +2931,12 @@
     {
         "name": "Guild Knight Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 35,
+            "meleeDmg": 70,
+            "hpRegen": 3.2,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 4400000,
             "max": 4400000
@@ -2380,7 +2950,12 @@
     {
         "name": "Knight's Army Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 24,
+            "meleeDmg": 35,
+            "rangedDmg": 60,
+            "hpRegen": 3.2
+        },
         "cost": {
             "min": 2450000,
             "max": 2600000
@@ -2394,14 +2969,14 @@
     {
         "name": "Odewig Armor",
         "slot": "body",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "endurance",
-            "walkSpeed"
-        ],
+        "stats": {
+            "armor": 38,
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "rangedDmg": 50,
+            "endurance": 3.5,
+            "walkSpeed": -1
+        },
         "cost": {
             "min": 3000000,
             "max": 3000000
@@ -2415,7 +2990,11 @@
     {
         "name": "Pettyganger's Parade Suit Top",
         "slot": "body",
-        "stats": ["armor", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 14,
+            "walkSpeed": 2,
+            "jumpPower": 5
+        },
         "cost": {
             "min": 4200000,
             "max": 5000000
@@ -2429,7 +3008,11 @@
     {
         "name": "Poison Construct Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 70,
+            "endurance": 7
+        },
         "cost": {
             "min": 2800000,
             "max": 2800000
@@ -2443,7 +3026,11 @@
     {
         "name": "Rotted King's Chestpiece",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "hpRegen"],
+        "stats": {
+            "armor": 35,
+            "meleeDmg": 80,
+            "hpRegen": -1.6
+        },
         "cost": {
             "min": 3200000,
             "max": 3500000
@@ -2457,7 +3044,11 @@
     {
         "name": "Spellbound Mage Battledress",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "walkSpeed"],
+        "stats": {
+            "armor": 19,
+            "magicDmg": 60,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 2400000,
             "max": 2400000
@@ -2471,7 +3062,10 @@
     {
         "name": "Platebody of the Earth King Regalia",
         "slot": "body",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 32,
+            "magicDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -2485,7 +3079,12 @@
     {
         "name": "The Armor of Forgotten Things",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 35,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 4500000,
             "max": 5000000
@@ -2499,7 +3098,13 @@
     {
         "name": "The Vengeful Visage Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 34,
+            "magicDmg": 25,
+            "meleeDmg": 25,
+            "rangedDmg": 25,
+            "endurance": 9
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -2513,7 +3118,13 @@
     {
         "name": "Tower Armor Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 35,
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "rangedDmg": 50,
+            "hpRegen": 4
+        },
         "cost": {
             "min": 3200000,
             "max": 3200000
@@ -2527,7 +3138,10 @@
     {
         "name": "Void Lord Chestpiece",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 38,
+            "meleeDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -2541,7 +3155,11 @@
     {
         "name": "Wolfram Leader Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 24,
+            "meleeDmg": 70,
+            "endurance": 7
+        },
         "cost": {
             "min": 2800000,
             "max": 2800000
@@ -2555,7 +3173,10 @@
     {
         "name": "World Sculptor's Armor",
         "slot": "body",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 32,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -2569,7 +3190,11 @@
     {
         "name": "Aquatic Explorer Armor",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 34,
+            "meleeDmg": 75,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -2583,7 +3208,13 @@
     {
         "name": "Platebody of a Forgotten Life",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 38,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65,
+            "endurance": 11
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -2597,7 +3228,12 @@
     {
         "name": "New Voice Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 32,
+            "magicDmg": 70,
+            "hpRegen": 3.2,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 4200000,
             "max": 4200000
@@ -2611,7 +3247,10 @@
     {
         "name": "Romo Torso",
         "slot": "body",
-        "stats": ["armor", "hpRegen"],
+        "stats": {
+            "armor": 38,
+            "hpRegen": 12
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -2625,7 +3264,12 @@
     {
         "name": "Wisecrack Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 60,
+            "meleeDmg": 65,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -2639,7 +3283,12 @@
     {
         "name": "Woodwhack Legionnaire Chestpiece",
         "slot": "body",
-        "stats": ["armor", "rangedDmg", "sightRange", "jumpPower"],
+        "stats": {
+            "armor": 29,
+            "rangedDmg": 55,
+            "sightRange": 15,
+            "jumpPower": 12
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -2653,7 +3302,11 @@
     {
         "name": "Bedrock Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 38,
+            "meleeDmg": 90,
+            "walkSpeed": -1
+        },
         "cost": {
             "min": 5200000,
             "max": 5500000
@@ -2667,7 +3320,10 @@
     {
         "name": "Corrupted Gold Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 31,
+            "meleeDmg": 75
+        },
         "cost": {
             "min": 7000000,
             "max": 7000000
@@ -2681,7 +3337,10 @@
     {
         "name": "Corrupted Onyx Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 32,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 2500000,
             "max": 7000000
@@ -2695,7 +3354,11 @@
     {
         "name": "Court Jester Shirt",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 18,
+            "magicDmg": 60,
+            "meleeDmg": 60
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -2709,7 +3372,13 @@
     {
         "name": "Falling Light Mage Robe Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "walkSpeed"],
+        "stats": {
+            "armor": 34,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": null,
             "max": null
@@ -2723,7 +3392,11 @@
     {
         "name": "Fire Spellbound Mage Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "walkSpeed"],
+        "stats": {
+            "armor": 21,
+            "magicDmg": 65,
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -2737,7 +3410,12 @@
     {
         "name": "Guttermouth Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 32,
+            "magicDmg": 60,
+            "meleeDmg": 60,
+            "endurance": 5
+        },
         "cost": {
             "min": 7500000,
             "max": 7500000
@@ -2751,7 +3429,11 @@
     {
         "name": "Ice Spellbound Mage Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 22,
+            "magicDmg": 75,
+            "endurance": 3
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -2765,7 +3447,11 @@
     {
         "name": "Nightmare Prowler Torso",
         "slot": "body",
-        "stats": ["armor", "rangedDmg", "ammoReturn"],
+        "stats": {
+            "armor": 31,
+            "rangedDmg": 75,
+            "ammoReturn": 5
+        },
         "cost": {
             "min": 5800000,
             "max": 6000000
@@ -2779,7 +3465,13 @@
     {
         "name": "Pantry Leech Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 34,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55,
+            "hpRegen": 5
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -2793,7 +3485,11 @@
     {
         "name": "Rising Dark Robe Top",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 35,
+            "magicDmg": 70,
+            "meleeDmg": 70
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -2807,18 +3503,18 @@
     {
         "name": "Roadblocks Torso",
         "slot": "body",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "hpRegen",
-            "endurance",
-            "sightRange",
-            "walkSpeed",
-            "jumpPower",
-            "ammoReturn"
-        ],
+        "stats": {
+            "armor": 3,
+            "magicDmg": 3,
+            "meleeDmg": 3,
+            "rangedDmg": 3,
+            "hpRegen": 3,
+            "endurance": 3,
+            "sightRange": 3,
+            "walkSpeed": 3,
+            "jumpPower": 3,
+            "ammoReturn": 3
+        },
         "cost": {
             "min": 20000000,
             "max": 20000000
@@ -2843,7 +3539,11 @@
     {
         "name": "The Drake's Shirt",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "meleeDmg": 60,
+            "rangedDmg": 60
+        },
         "cost": {
             "min": null,
             "max": null
@@ -2857,7 +3557,12 @@
     {
         "name": "U-Life Platebody",
         "slot": "body",
-        "stats": ["armor", "rangedDmg", "hpRegen", "walkSpeed"],
+        "stats": {
+            "armor": 29,
+            "rangedDmg": 60,
+            "hpRegen": 3.2,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -2871,7 +3576,10 @@
     {
         "name": "Wired Fury Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 28,
+            "meleeDmg": 90
+        },
         "cost": {
             "min": 5500000,
             "max": 5500000
@@ -2885,7 +3593,11 @@
     {
         "name": "Green Spectral Vanguard Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 20,
+            "magicDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -2899,7 +3611,11 @@
     {
         "name": "Blue Spectral Vanguard Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 20,
+            "meleeDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -2913,7 +3629,11 @@
     {
         "name": "Purple Spectral Vanguard Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 20,
+            "magicDmg": 75,
+            "meleeDmg": 75
+        },
         "cost": {
             "min": 2600000,
             "max": 2600000
@@ -2927,7 +3647,12 @@
     {
         "name": "Black Spectral Vanguard Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -2941,7 +3666,12 @@
     {
         "name": "White Spectral Vanguard Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -2955,7 +3685,12 @@
     {
         "name": "True Spectral Vanguard Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 32,
+            "magicDmg": 100,
+            "meleeDmg": 100,
+            "rangedDmg": 100
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -2969,7 +3704,12 @@
     {
         "name": "Fire Guild Knight Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 35,
+            "meleeDmg": 70,
+            "hpRegen": 1.6,
+            "endurance": 5
+        },
         "cost": {
             "min": 4800000,
             "max": 4800000
@@ -2983,7 +3723,12 @@
     {
         "name": "Water Guild Knight Platebody",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 35,
+            "meleeDmg": 70,
+            "hpRegen": 4.8,
+            "endurance": 1.5
+        },
         "cost": {
             "min": 4800000,
             "max": 4800000
@@ -2997,7 +3742,12 @@
     {
         "name": "Temple Fool Torso",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 32,
+            "magicDmg": 70,
+            "meleeDmg": 70,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 5200000,
             "max": 5200000
@@ -3011,7 +3761,13 @@
     {
         "name": "Machine Rug Platebody",
         "slot": "body",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 38,
+            "magicDmg": 80,
+            "meleeDmg": 90,
+            "rangedDmg": 70,
+            "endurance": 5
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -3025,7 +3781,13 @@
     {
         "name": "Broken Thumb Drillbit Emporium Chassis",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "rangedDmg", "endurance", "ammoReturn"],
+        "stats": {
+            "armor": 38,
+            "meleeDmg": 75,
+            "rangedDmg": 75,
+            "endurance": 3.5,
+            "ammoReturn": 20
+        },
         "cost": {
             "min": 25000000,
             "max": 25000000
@@ -3039,7 +3801,11 @@
     {
         "name": "Adventurer's Armor",
         "slot": "body",
-        "stats": ["armor", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 29,
+            "meleeDmg": 75,
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 5400000,
             "max": 5400000
@@ -3053,7 +3819,9 @@
     {
         "name": "Bandolier",
         "slot": "body",
-        "stats": ["rangedDmg"],
+        "stats": {
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 180000,
             "max": 180000
@@ -3067,7 +3835,9 @@
     {
         "name": "Enormous Huge Bill",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 40
+        },
         "cost": {
             "min": 100000000,
             "max": 100000000
@@ -3081,7 +3851,9 @@
     {
         "name": "Green-Black Jacket",
         "slot": "body",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 22
+        },
         "cost": {
             "min": null,
             "max": null
@@ -3095,7 +3867,9 @@
     {
         "name": "Frog Costume #1 - Torso",
         "slot": "body",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 3
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -3109,7 +3883,9 @@
     {
         "name": "Frog Costume #2 - Torso",
         "slot": "body",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 6
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -3123,7 +3899,9 @@
     {
         "name": "Frog Costume #3 - Torso",
         "slot": "body",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 9
+        },
         "cost": {
             "min": 3500000,
             "max": 3500000
@@ -3137,7 +3915,9 @@
     {
         "name": "Frog Costume #4 - Torso",
         "slot": "body",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 12
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -3151,7 +3931,9 @@
     {
         "name": "Frog Costume #5 - Torso",
         "slot": "body",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 15
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -3165,7 +3947,9 @@
     {
         "name": "Bronze Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 4
+        },
         "cost": {
             "min": 280,
             "max": 280
@@ -3179,7 +3963,9 @@
     {
         "name": "Iron Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 6
+        },
         "cost": {
             "min": 1100,
             "max": 1100
@@ -3193,7 +3979,9 @@
     {
         "name": "Cobalt Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 9
+        },
         "cost": {
             "min": 7100,
             "max": 7100
@@ -3207,7 +3995,9 @@
     {
         "name": "Titanium Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 11
+        },
         "cost": {
             "min": 28000,
             "max": 28000
@@ -3221,7 +4011,9 @@
     {
         "name": "Gold Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 14
+        },
         "cost": {
             "min": 70000,
             "max": 70000
@@ -3235,7 +4027,9 @@
     {
         "name": "Onyx Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 16
+        },
         "cost": {
             "min": 140000,
             "max": 140000
@@ -3249,7 +4043,10 @@
     {
         "name": "Blue Wizard Robe Bottom",
         "slot": "legs",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 10,
+            "magicDmg": 25
+        },
         "cost": {
             "min": 340000,
             "max": 340000
@@ -3263,7 +4060,11 @@
     {
         "name": "Brash Knight Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "meleeDmg": 10,
+            "rangedDmg": 10
+        },
         "cost": {
             "min": 140000,
             "max": 140000
@@ -3277,7 +4078,11 @@
     {
         "name": "Celestial Robe Bottom",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 840000,
             "max": 840000
@@ -3291,7 +4096,10 @@
     {
         "name": "Courting Knight Legs",
         "slot": "legs",
-        "stats": ["armor", "hpRegen"],
+        "stats": {
+            "armor": 16,
+            "hpRegen": 0.8
+        },
         "cost": {
             "min": 280000,
             "max": 280000
@@ -3305,7 +4113,10 @@
     {
         "name": "Dark Hunter Legs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 10,
+            "rangedDmg": 25
+        },
         "cost": {
             "min": 340000,
             "max": 340000
@@ -3319,7 +4130,11 @@
     {
         "name": "Darkwood Warrior Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 24,
+            "meleeDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -3333,7 +4148,10 @@
     {
         "name": "Furnace Mummy Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 28,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 2100000,
             "max": 2100000
@@ -3347,7 +4165,10 @@
     {
         "name": "Galaxy Wizard Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 18,
+            "magicDmg": 65
+        },
         "cost": {
             "min": 2100000,
             "max": 2100000
@@ -3361,7 +4182,12 @@
     {
         "name": "Guardian Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55
+        },
         "cost": {
             "min": 3000000,
             "max": 3000000
@@ -3375,7 +4201,9 @@
     {
         "name": "Hardened Bronze Platelegs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 16
+        },
         "cost": {
             "min": 160000,
             "max": 160000
@@ -3389,7 +4217,9 @@
     {
         "name": "Hedge Knight Legs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 14
+        },
         "cost": {
             "min": 85000,
             "max": 85000
@@ -3403,7 +4233,9 @@
     {
         "name": "Illuminator's Pants",
         "slot": "legs",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 15
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -3417,7 +4249,10 @@
     {
         "name": "Ivory Legs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 18,
+            "meleeDmg": 25
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -3431,7 +4266,11 @@
     {
         "name": "Jade Assassin's Legs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 12,
+            "meleeDmg": 8,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 190000,
             "max": 190000
@@ -3445,7 +4284,10 @@
     {
         "name": "Lagoon Spirit Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 40
+        },
         "cost": {
             "min": 980000,
             "max": 980000
@@ -3459,7 +4301,10 @@
     {
         "name": "Mortmud Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 9,
+            "magicDmg": 15
+        },
         "cost": {
             "min": 120000,
             "max": 120000
@@ -3473,7 +4318,9 @@
     {
         "name": "Patched Legs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 14
+        },
         "cost": {
             "min": 70000,
             "max": 70000
@@ -3487,7 +4334,10 @@
     {
         "name": "Razed General Legs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 18,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 2100000,
             "max": 2100000
@@ -3501,7 +4351,10 @@
     {
         "name": "Red Wizard Robe Bottom",
         "slot": "legs",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 10,
+            "magicDmg": 25
+        },
         "cost": {
             "min": 340000,
             "max": 340000
@@ -3515,7 +4368,9 @@
     {
         "name": "Riveted Shorts",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 11
+        },
         "cost": {
             "min": 28000,
             "max": 28000
@@ -3529,7 +4384,9 @@
     {
         "name": "Skeleton Legs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 3
+        },
         "cost": {
             "min": 200000,
             "max": 200000
@@ -3543,7 +4400,10 @@
     {
         "name": "Spikeout Legs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 11,
+            "meleeDmg": 15
+        },
         "cost": {
             "min": 140000,
             "max": 140000
@@ -3557,7 +4417,10 @@
     {
         "name": "Springtwig Legs",
         "slot": "legs",
-        "stats": ["walkSpeed", "jumpPower"],
+        "stats": {
+            "walkSpeed": 1,
+            "jumpPower": 11
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -3571,7 +4434,10 @@
     {
         "name": "Tomb Prowler Legs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 22,
+            "rangedDmg": 40
+        },
         "cost": {
             "min": 980000,
             "max": 980000
@@ -3585,7 +4451,11 @@
     {
         "name": "Void Monster Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 24,
+            "magicDmg": 30,
+            "meleeDmg": 30
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -3599,7 +4469,10 @@
     {
         "name": "Woodland Ranger Legs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 9,
+            "rangedDmg": 15
+        },
         "cost": {
             "min": 120000,
             "max": 120000
@@ -3613,7 +4486,9 @@
     {
         "name": "Zhuulaczar Legs",
         "slot": "legs",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 16
+        },
         "cost": {
             "min": 300000,
             "max": 300000
@@ -3627,7 +4502,11 @@
     {
         "name": "Chasm Magus Robe Bottom",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "sightRange"],
+        "stats": {
+            "armor": 20,
+            "magicDmg": 60,
+            "sightRange": 15
+        },
         "cost": {
             "min": 2200000,
             "max": 2200000
@@ -3641,7 +4520,12 @@
     {
         "name": "Crabsuit Legs",
         "slot": "legs",
-        "stats": ["armor", "endurance", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 18,
+            "endurance": 5,
+            "walkSpeed": 1,
+            "jumpPower": 8
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -3655,7 +4539,12 @@
     {
         "name": "Gardendweller Pants",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 10,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55
+        },
         "cost": {
             "min": 480000,
             "max": 480000
@@ -3669,7 +4558,11 @@
     {
         "name": "Gauntlet Fury Platelegs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 24,
+            "rangedDmg": 55,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 2050000,
             "max": 2200000
@@ -3683,7 +4576,12 @@
     {
         "name": "Guild Knight Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 28,
+            "meleeDmg": 70,
+            "hpRegen": 3.2,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 3800000,
             "max": 3800000
@@ -3697,7 +4595,12 @@
     {
         "name": "Knight's Army Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 18,
+            "meleeDmg": 35,
+            "rangedDmg": 60,
+            "hpRegen": 3.2
+        },
         "cost": {
             "min": 2150000,
             "max": 2400000
@@ -3711,14 +4614,14 @@
     {
         "name": "Odewig Platelegs",
         "slot": "legs",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "endurance",
-            "walkSpeed"
-        ],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "rangedDmg": 50,
+            "endurance": 3.5,
+            "walkSpeed": -1
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -3732,7 +4635,11 @@
     {
         "name": "Pettyganger's Parade Legwarmers",
         "slot": "legs",
-        "stats": ["armor", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 2,
+            "jumpPower": 5
+        },
         "cost": {
             "min": 4200000,
             "max": 5000000
@@ -3746,7 +4653,11 @@
     {
         "name": "Poison Construct Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 11,
+            "magicDmg": 70,
+            "endurance": 7
+        },
         "cost": {
             "min": 2400000,
             "max": 2400000
@@ -3760,7 +4671,11 @@
     {
         "name": "Rotted King's Escort",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 28,
+            "meleeDmg": 60,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 3200000,
             "max": 3500000
@@ -3774,7 +4689,11 @@
     {
         "name": "Spellbound Mage Skirt",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "walkSpeed"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 60,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 2000000,
             "max": 2000000
@@ -3788,7 +4707,10 @@
     {
         "name": "Platelegs of the Earth King Regalia",
         "slot": "legs",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 26,
+            "magicDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -3802,7 +4724,12 @@
     {
         "name": "The Platelegs of Forgotten Things",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 28,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 4500000,
             "max": 5000000
@@ -3816,7 +4743,13 @@
     {
         "name": "The Vengeful Visage Bottoms",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 26,
+            "magicDmg": 25,
+            "meleeDmg": 25,
+            "rangedDmg": 25,
+            "endurance": 9
+        },
         "cost": {
             "min": 2200000,
             "max": 2200000
@@ -3830,7 +4763,13 @@
     {
         "name": "Tower Armor Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 28,
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "rangedDmg": 50,
+            "hpRegen": 4
+        },
         "cost": {
             "min": 2800000,
             "max": 2800000
@@ -3844,7 +4783,10 @@
     {
         "name": "Void Lord Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 30,
+            "meleeDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -3858,7 +4800,11 @@
     {
         "name": "Wolfram Leader Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 18,
+            "meleeDmg": 70,
+            "endurance": 7
+        },
         "cost": {
             "min": 2400000,
             "max": 2400000
@@ -3872,7 +4818,10 @@
     {
         "name": "World Sculptor's Platelegs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 26,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 4800000,
             "max": 5000000
@@ -3886,7 +4835,11 @@
     {
         "name": "Aquatic Explorer Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 29,
+            "meleeDmg": 75,
+            "rangedDmg": 65
+        },
         "cost": {
             "min": 3800000,
             "max": 3800000
@@ -3900,7 +4853,13 @@
     {
         "name": "Platelegs of a Forgotten Life",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65,
+            "endurance": 11
+        },
         "cost": {
             "min": 6000000,
             "max": 6000000
@@ -3914,7 +4873,12 @@
     {
         "name": "New Voice Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 26,
+            "magicDmg": 70,
+            "hpRegen": 3.2,
+            "endurance": 3.5
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -3928,7 +4892,10 @@
     {
         "name": "Romo Robo-Legs",
         "slot": "legs",
-        "stats": ["armor", "hpRegen"],
+        "stats": {
+            "armor": 30,
+            "hpRegen": 12
+        },
         "cost": {
             "min": 7500000,
             "max": 7500000
@@ -3942,7 +4909,12 @@
     {
         "name": "Wisecrack Leggings",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 60,
+            "meleeDmg": 65,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -3956,7 +4928,12 @@
     {
         "name": "Wooden Shorts",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg", "sightRange", "jumpPower"],
+        "stats": {
+            "armor": 23,
+            "rangedDmg": 55,
+            "sightRange": 15,
+            "jumpPower": 12
+        },
         "cost": {
             "min": 2200000,
             "max": 2200000
@@ -3970,7 +4947,11 @@
     {
         "name": "Bedrock Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 30,
+            "meleeDmg": 90,
+            "walkSpeed": -1
+        },
         "cost": {
             "min": 5200000,
             "max": 5500000
@@ -3984,7 +4965,10 @@
     {
         "name": "Corrupted Gold Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 25,
+            "meleeDmg": 75
+        },
         "cost": {
             "min": 7000000,
             "max": 7000000
@@ -3998,7 +4982,10 @@
     {
         "name": "Corrupted Onyx Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 24,
+            "meleeDmg": 65
+        },
         "cost": {
             "min": 2500000,
             "max": 7000000
@@ -4012,7 +4999,11 @@
     {
         "name": "Court Jester Pants",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 14,
+            "magicDmg": 60,
+            "meleeDmg": 60
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -4026,7 +5017,13 @@
     {
         "name": "Falling Light Mage Robe Bottoms",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "walkSpeed"],
+        "stats": {
+            "armor": 27,
+            "magicDmg": 65,
+            "meleeDmg": 65,
+            "rangedDmg": 65,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": null,
             "max": null
@@ -4040,7 +5037,11 @@
     {
         "name": "Fire Spellbound Mage Skirt",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "walkSpeed"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 65,
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -4054,7 +5055,12 @@
     {
         "name": "Guttermouth Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "endurance"],
+        "stats": {
+            "armor": 26,
+            "magicDmg": 60,
+            "meleeDmg": 60,
+            "endurance": 5
+        },
         "cost": {
             "min": 7500000,
             "max": 7500000
@@ -4068,7 +5074,11 @@
     {
         "name": "Ice Spellbound Mage Skirt",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "endurance"],
+        "stats": {
+            "armor": 16,
+            "magicDmg": 75,
+            "endurance": 3
+        },
         "cost": {
             "min": 4000000,
             "max": 4000000
@@ -4082,7 +5092,11 @@
     {
         "name": "Nightmare Prowler Leggings",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg", "ammoReturn"],
+        "stats": {
+            "armor": 25,
+            "rangedDmg": 75,
+            "ammoReturn": 5
+        },
         "cost": {
             "min": 5800000,
             "max": 6000000
@@ -4096,7 +5110,13 @@
     {
         "name": "Pantry Leech Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "hpRegen"],
+        "stats": {
+            "armor": 26,
+            "magicDmg": 55,
+            "meleeDmg": 55,
+            "rangedDmg": 55,
+            "hpRegen": 5
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -4110,7 +5130,11 @@
     {
         "name": "Rising Dark Robe Bottoms",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 28,
+            "magicDmg": 70,
+            "meleeDmg": 70
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -4124,18 +5148,18 @@
     {
         "name": "Roadblocks Legs",
         "slot": "legs",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "hpRegen",
-            "endurance",
-            "sightRange",
-            "walkSpeed",
-            "jumpPower",
-            "ammoReturn"
-        ],
+        "stats": {
+            "armor": 3,
+            "magicDmg": 3,
+            "meleeDmg": 3,
+            "rangedDmg": 3,
+            "hpRegen": 3,
+            "endurance": 3,
+            "sightRange": 3,
+            "walkSpeed": 3,
+            "jumpPower": 3,
+            "ammoReturn": 3
+        },
         "cost": {
             "min": 20000000,
             "max": 20000000
@@ -4149,7 +5173,11 @@
     {
         "name": "The Drake's Pants",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 18,
+            "meleeDmg": 60,
+            "rangedDmg": 60
+        },
         "cost": {
             "min": null,
             "max": null
@@ -4163,7 +5191,12 @@
     {
         "name": "U-Life Platelegs",
         "slot": "legs",
-        "stats": ["armor", "rangedDmg", "hpRegen", "walkSpeed"],
+        "stats": {
+            "armor": 23,
+            "rangedDmg": 60,
+            "hpRegen": 3.2,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -4177,7 +5210,10 @@
     {
         "name": "Wired Fury Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": 20,
+            "meleeDmg": 90
+        },
         "cost": {
             "min": 5500000,
             "max": 5500000
@@ -4191,7 +5227,11 @@
     {
         "name": "Green Spectral Vanguard Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "rangedDmg"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -4205,7 +5245,11 @@
     {
         "name": "Blue Spectral Vanguard Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 15,
+            "meleeDmg": 75,
+            "rangedDmg": 75
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -4219,7 +5263,11 @@
     {
         "name": "Purple Spectral Vanguard Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": 15,
+            "magicDmg": 75,
+            "meleeDmg": 75
+        },
         "cost": {
             "min": 2600000,
             "max": 2600000
@@ -4233,7 +5281,12 @@
     {
         "name": "Black Spectral Vanguard Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 24,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -4247,7 +5300,12 @@
     {
         "name": "White Spectral Vanguard Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 24,
+            "magicDmg": 80,
+            "meleeDmg": 80,
+            "rangedDmg": 80
+        },
         "cost": {
             "min": 6500000,
             "max": 6500000
@@ -4261,7 +5319,12 @@
     {
         "name": "True Spectral Vanguard Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "armor": 25,
+            "magicDmg": 100,
+            "meleeDmg": 100,
+            "rangedDmg": 100
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -4275,7 +5338,12 @@
     {
         "name": "Fire Guild Knight Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 28,
+            "meleeDmg": 70,
+            "hpRegen": 1.6,
+            "endurance": 5
+        },
         "cost": {
             "min": 4800000,
             "max": 4800000
@@ -4289,7 +5357,12 @@
     {
         "name": "Water Guild Knight Platelegs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "hpRegen", "endurance"],
+        "stats": {
+            "armor": 28,
+            "meleeDmg": 70,
+            "hpRegen": 4.8,
+            "endurance": 1.5
+        },
         "cost": {
             "min": 4800000,
             "max": 4800000
@@ -4303,7 +5376,12 @@
     {
         "name": "Temple Fool Legs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 24,
+            "magicDmg": 70,
+            "meleeDmg": 70,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 5200000,
             "max": 5200000
@@ -4317,7 +5395,13 @@
     {
         "name": "Machine Rug Platelegs",
         "slot": "legs",
-        "stats": ["armor", "magicDmg", "meleeDmg", "rangedDmg", "endurance"],
+        "stats": {
+            "armor": 30,
+            "magicDmg": 90,
+            "meleeDmg": 70,
+            "rangedDmg": 80,
+            "endurance": 5
+        },
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -4331,7 +5415,13 @@
     {
         "name": "Robotic Biological Chemistry Legs",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "rangedDmg", "endurance", "ammoReturn"],
+        "stats": {
+            "armor": 30,
+            "meleeDmg": 75,
+            "rangedDmg": 75,
+            "endurance": 3.5,
+            "ammoReturn": 20
+        },
         "cost": {
             "min": 25000000,
             "max": 25000000
@@ -4345,7 +5435,11 @@
     {
         "name": "Adventurer's Guard",
         "slot": "legs",
-        "stats": ["armor", "meleeDmg", "walkSpeed"],
+        "stats": {
+            "armor": 23,
+            "meleeDmg": 75,
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 5400000,
             "max": 5400000
@@ -4359,7 +5453,9 @@
     {
         "name": "Frog Costume #1 - Legs",
         "slot": "legs",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 3
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -4373,7 +5469,9 @@
     {
         "name": "Frog Costume #2 - Legs",
         "slot": "legs",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 6
+        },
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -4387,7 +5485,9 @@
     {
         "name": "Frog Costume #3 - Legs",
         "slot": "legs",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 9
+        },
         "cost": {
             "min": 3500000,
             "max": 3500000
@@ -4401,7 +5501,9 @@
     {
         "name": "Frog Costume #4 - Legs",
         "slot": "legs",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 12
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -4415,7 +5517,9 @@
     {
         "name": "Frog Costume #5 - Legs",
         "slot": "legs",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 15
+        },
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -4429,7 +5533,10 @@
     {
         "name": "Bronze Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 2,
+            "walkSpeed": 2
+        },
         "cost": {
             "min": 220,
             "max": 220
@@ -4443,7 +5550,10 @@
     {
         "name": "Iron Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 3,
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 850,
             "max": 850
@@ -4457,7 +5567,10 @@
     {
         "name": "Cobalt Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 4,
+            "walkSpeed": 4
+        },
         "cost": {
             "min": 5300,
             "max": 5300
@@ -4471,7 +5584,10 @@
     {
         "name": "Titanium Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 5,
+            "walkSpeed": 4
+        },
         "cost": {
             "min": 21000,
             "max": 21000
@@ -4485,7 +5601,10 @@
     {
         "name": "Gold Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 7,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 54000,
             "max": 54000
@@ -4499,7 +5618,10 @@
     {
         "name": "Onyx Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 8,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 110000,
             "max": 110000
@@ -4513,7 +5635,9 @@
     {
         "name": "Black Shoes",
         "slot": "feet",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 2000,
             "max": 2000
@@ -4527,7 +5651,9 @@
     {
         "name": "Brown Shoes",
         "slot": "feet",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 2000,
             "max": 2000
@@ -4541,7 +5667,9 @@
     {
         "name": "Green Shoes",
         "slot": "feet",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 9900,
             "max": 9900
@@ -4555,7 +5683,9 @@
     {
         "name": "Red Shoes",
         "slot": "feet",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 2000,
             "max": 2000
@@ -4569,7 +5699,9 @@
     {
         "name": "White Shoes",
         "slot": "feet",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 2000,
             "max": 2000
@@ -4583,14 +5715,14 @@
     {
         "name": "Guardian Lower Legs",
         "slot": "feet",
-        "stats": [
-            "armor",
-            "magicDmg",
-            "meleeDmg",
-            "rangedDmg",
-            "walkSpeed",
-            "height"
-        ],
+        "stats": {
+            "armor": 12,
+            "magicDmg": 35,
+            "meleeDmg": 35,
+            "rangedDmg": 35,
+            "walkSpeed": 3,
+            "height": 0.8
+        },
         "cost": {
             "min": 1350000,
             "max": 1350000
@@ -4604,7 +5736,10 @@
     {
         "name": "Black Supershoes",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4618,7 +5753,11 @@
     {
         "name": "Clown Shoes",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 8,
+            "walkSpeed": 4,
+            "jumpPower": 45
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -4632,7 +5771,10 @@
     {
         "name": "Dark Powerboots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4646,7 +5788,10 @@
     {
         "name": "Golden Powerboots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4660,7 +5805,10 @@
     {
         "name": "Green Powerboots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4674,7 +5822,10 @@
     {
         "name": "Gray Supershoes",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4688,7 +5839,10 @@
     {
         "name": "Jump Boots",
         "slot": "feet",
-        "stats": ["walkSpeed", "jumpPower"],
+        "stats": {
+            "walkSpeed": 4,
+            "jumpPower": 40
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -4702,7 +5856,11 @@
     {
         "name": "Nightmare Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 8,
+            "walkSpeed": 7,
+            "jumpPower": -20
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4716,7 +5874,11 @@
     {
         "name": "Otherworld Boots",
         "slot": "feet",
-        "stats": ["armor", "endurance", "walkSpeed"],
+        "stats": {
+            "armor": 8,
+            "endurance": 3.5,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4730,7 +5892,10 @@
     {
         "name": "Phantom Boots",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 5,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -4744,7 +5909,10 @@
     {
         "name": "Red Supershoes",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed"],
+        "stats": {
+            "armor": 10,
+            "walkSpeed": 5
+        },
         "cost": {
             "min": 250000,
             "max": 250000
@@ -4758,7 +5926,12 @@
     {
         "name": "Spider Stilts",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed", "jumpPower", "height"],
+        "stats": {
+            "armor": 4,
+            "walkSpeed": 7,
+            "jumpPower": 40,
+            "height": 2
+        },
         "cost": {
             "min": null,
             "max": null
@@ -4772,7 +5945,11 @@
     {
         "name": "Tag Red Lazer",
         "slot": "feet",
-        "stats": ["armor", "walkSpeed", "jumpPower"],
+        "stats": {
+            "armor": 9,
+            "walkSpeed": 7,
+            "jumpPower": 7
+        },
         "cost": {
             "min": 7000000,
             "max": 10000000
@@ -4786,7 +5963,10 @@
     {
         "name": "Blue Eye Amulet",
         "slot": "neck",
-        "stats": ["rangedDmg", "sightRange"],
+        "stats": {
+            "rangedDmg": 20,
+            "sightRange": 20
+        },
         "cost": {
             "min": 120000,
             "max": 120000
@@ -4800,7 +5980,9 @@
     {
         "name": "Green Crystal Amulet",
         "slot": "neck",
-        "stats": ["walkSpeed"],
+        "stats": {
+            "walkSpeed": 3
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -4814,7 +5996,10 @@
     {
         "name": "Peapod Necklace",
         "slot": "neck",
-        "stats": ["walkSpeed", "jumpPower"],
+        "stats": {
+            "walkSpeed": 1,
+            "jumpPower": 20
+        },
         "cost": {
             "min": 225000,
             "max": 225000
@@ -4828,7 +6013,9 @@
     {
         "name": "Radiant Medallion",
         "slot": "neck",
-        "stats": ["magicDmg"],
+        "stats": {
+            "magicDmg": 15
+        },
         "cost": {
             "min": null,
             "max": null
@@ -4842,7 +6029,9 @@
     {
         "name": "Seer's Pendant I",
         "slot": "neck",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 15
+        },
         "cost": {
             "min": 25000,
             "max": 25000
@@ -4856,7 +6045,9 @@
     {
         "name": "Seer's Pendant II",
         "slot": "neck",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 40
+        },
         "cost": {
             "min": 150000,
             "max": 150000
@@ -4870,7 +6061,7 @@
     {
         "name": "Shattered Blade Necklace",
         "slot": "neck",
-        "stats": [],
+        "stats": {},
         "cost": {
             "min": 1500000,
             "max": 1500000
@@ -4884,7 +6075,11 @@
     {
         "name": "Tri-Color Necklace",
         "slot": "neck",
-        "stats": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "magicDmg": 25,
+            "meleeDmg": 25,
+            "rangedDmg": 25
+        },
         "cost": {
             "min": 555000,
             "max": 555000
@@ -4898,7 +6093,9 @@
     {
         "name": "Vital Pendant",
         "slot": "neck",
-        "stats": ["hpRegen"],
+        "stats": {
+            "hpRegen": 4
+        },
         "cost": {
             "min": 1200000,
             "max": 1200000
@@ -4912,7 +6109,7 @@
     {
         "name": "Angel Wings",
         "slot": "back",
-        "stats": [],
+        "stats": {},
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -4926,7 +6123,7 @@
     {
         "name": "Dark Angel Wings",
         "slot": "back",
-        "stats": [],
+        "stats": {},
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -4940,7 +6137,9 @@
     {
         "name": "Dreamnet",
         "slot": "back",
-        "stats": ["magicDmg"],
+        "stats": {
+            "magicDmg": 44
+        },
         "cost": {
             "min": 744000,
             "max": 744000
@@ -4954,7 +6153,10 @@
     {
         "name": "Emperor's Cape",
         "slot": "back",
-        "stats": ["armor", "meleeDmg"],
+        "stats": {
+            "armor": -4,
+            "meleeDmg": 45
+        },
         "cost": {
             "min": 1100000,
             "max": 1100000
@@ -4968,7 +6170,9 @@
     {
         "name": "Eyes of the Sword",
         "slot": "back",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 35
+        },
         "cost": {
             "min": 700000,
             "max": 750000
@@ -4982,7 +6186,13 @@
     {
         "name": "Meeting Remnant",
         "slot": "back",
-        "stats": ["magicDmg", "meleeDmg", "rangedDmg", "hpRegen", "walkSpeed"],
+        "stats": {
+            "magicDmg": 20,
+            "meleeDmg": 20,
+            "rangedDmg": 20,
+            "hpRegen": 2,
+            "walkSpeed": 1
+        },
         "cost": {
             "min": 1800000,
             "max": 1800000
@@ -4996,7 +6206,9 @@
     {
         "name": "Ranger's Backpack",
         "slot": "back",
-        "stats": ["rangedDmg"],
+        "stats": {
+            "rangedDmg": 40
+        },
         "cost": {
             "min": 700000,
             "max": 755000
@@ -5010,7 +6222,10 @@
     {
         "name": "Coral Ring",
         "slot": "ring",
-        "stats": ["armor", "magicDmg"],
+        "stats": {
+            "armor": 2,
+            "magicDmg": 15
+        },
         "cost": {
             "min": 85000,
             "max": 85000
@@ -5024,7 +6239,10 @@
     {
         "name": "Hightower Ring",
         "slot": "ring",
-        "stats": ["armor", "rangedDmg"],
+        "stats": {
+            "armor": 3,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 750000,
             "max": 750000
@@ -5038,7 +6256,9 @@
     {
         "name": "Mud Ring",
         "slot": "ring",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 5
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -5052,7 +6272,10 @@
     {
         "name": "Ring of Power",
         "slot": "ring",
-        "stats": ["meleeDmg", "endurance"],
+        "stats": {
+            "meleeDmg": 35,
+            "endurance": 6
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -5066,7 +6289,9 @@
     {
         "name": "Ring of the Five Knights",
         "slot": "ring",
-        "stats": ["armor"],
+        "stats": {
+            "armor": 4
+        },
         "cost": {
             "min": null,
             "max": null
@@ -5080,7 +6305,11 @@
     {
         "name": "Scorched Soul's Ring",
         "slot": "ring",
-        "stats": ["magicDmg", "meleeDmg", "hpRegen"],
+        "stats": {
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "hpRegen": -3.2
+        },
         "cost": {
             "min": 1000000,
             "max": 1000000
@@ -5094,7 +6323,9 @@
     {
         "name": "Strange Creature Ring",
         "slot": "ring",
-        "stats": ["magicDmg"],
+        "stats": {
+            "magicDmg": 40
+        },
         "cost": {
             "min": 880000,
             "max": 880000
@@ -5108,7 +6339,9 @@
     {
         "name": "Tough Green Ring",
         "slot": "ring",
-        "stats": ["endurance"],
+        "stats": {
+            "endurance": 7
+        },
         "cost": {
             "min": 100000,
             "max": 100000
@@ -5122,7 +6355,9 @@
     {
         "name": "Ancient Dragon Horns",
         "slot": "misc",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 35
+        },
         "cost": {
             "min": 550000,
             "max": 550000
@@ -5136,7 +6371,9 @@
     {
         "name": "Antennae",
         "slot": "misc",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 20
+        },
         "cost": {
             "min": 20000,
             "max": 20000
@@ -5150,7 +6387,9 @@
     {
         "name": "Antlers",
         "slot": "misc",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 10
+        },
         "cost": {
             "min": null,
             "max": null
@@ -5164,7 +6403,9 @@
     {
         "name": "Big Orange Eyes",
         "slot": "misc",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 55
+        },
         "cost": {
             "min": 505000,
             "max": 505000
@@ -5178,7 +6419,9 @@
     {
         "name": "Black Antlers",
         "slot": "misc",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 30
+        },
         "cost": {
             "min": null,
             "max": null
@@ -5192,7 +6435,10 @@
     {
         "name": "Brain Monocle",
         "slot": "misc",
-        "stats": ["magicDmg", "rangedDmg"],
+        "stats": {
+            "magicDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 500000,
             "max": 500000
@@ -5206,7 +6452,9 @@
     {
         "name": "Bunny Ears",
         "slot": "misc",
-        "stats": ["jumpPower"],
+        "stats": {
+            "jumpPower": 20
+        },
         "cost": {
             "min": null,
             "max": null
@@ -5220,7 +6468,10 @@
     {
         "name": "Enchanted Spectacles",
         "slot": "misc",
-        "stats": ["magicDmg", "sightRange"],
+        "stats": {
+            "magicDmg": 5,
+            "sightRange": 20
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -5234,7 +6485,10 @@
     {
         "name": "Front Bullet Pack",
         "slot": "misc",
-        "stats": ["rangedDmg", "ammoReturn"],
+        "stats": {
+            "rangedDmg": 5,
+            "ammoReturn": 50
+        },
         "cost": {
             "min": 1200000,
             "max": 1200000
@@ -5248,7 +6502,9 @@
     {
         "name": "Gold Antlers",
         "slot": "misc",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 40
+        },
         "cost": {
             "min": null,
             "max": null
@@ -5262,7 +6518,9 @@
     {
         "name": "Pirate Hook",
         "slot": "misc",
-        "stats": ["meleeDmg"],
+        "stats": {
+            "meleeDmg": 40
+        },
         "cost": {
             "min": null,
             "max": null
@@ -5276,7 +6534,10 @@
     {
         "name": "Ranger Spectacles",
         "slot": "misc",
-        "stats": ["rangedDmg", "sightRange"],
+        "stats": {
+            "rangedDmg": 5,
+            "sightRange": 20
+        },
         "cost": {
             "min": 50000,
             "max": 50000
@@ -5290,7 +6551,9 @@
     {
         "name": "Shades",
         "slot": "misc",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 20
+        },
         "cost": {
             "min": 100000,
             "max": 100000
@@ -5304,7 +6567,9 @@
     {
         "name": "Spectacles",
         "slot": "misc",
-        "stats": ["sightRange"],
+        "stats": {
+            "sightRange": 20
+        },
         "cost": {
             "min": 15000,
             "max": 15000
@@ -5318,7 +6583,11 @@
     {
         "name": "Spooky Grin",
         "slot": "misc",
-        "stats": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "stats": {
+            "magicDmg": 10,
+            "meleeDmg": 10,
+            "rangedDmg": 10
+        },
         "cost": {
             "min": 220000,
             "max": 250000
@@ -5332,7 +6601,10 @@
     {
         "name": "Xenoculous",
         "slot": "misc",
-        "stats": ["meleeDmg", "rangedDmg"],
+        "stats": {
+            "meleeDmg": 30,
+            "rangedDmg": 30
+        },
         "cost": {
             "min": 485000,
             "max": 500000
@@ -5346,7 +6618,11 @@
     {
         "name": "Yaaxil Crest",
         "slot": "misc",
-        "stats": ["armor", "magicDmg", "meleeDmg"],
+        "stats": {
+            "armor": -8,
+            "magicDmg": 15,
+            "meleeDmg": 50
+        },
         "cost": {
             "min": 800000,
             "max": 800000
