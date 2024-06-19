@@ -6710,12 +6710,12 @@
         "release": "fr",
         "image": "f/fe/CelestialSpellbook.png",
         "link": "Celestial_Powers_Spellbook",
+        "abilityNote": "Charge Range = 0.8 to 3",
         "abilities": [
             {
-                "name": "Charged Basic Attack",
-                "type": "magicDmg",
-                "base": 240,
-                "mult": 3.3
+                "name": "Basic Attack",
+                "base": "80 * Charge",
+                "formula": "(80 + 110% Magic) * Charge"
             },
             {
                 "name": "Fantastic Beamstorm (beam)",
@@ -6885,6 +6885,7 @@
         "release": "rn",
         "image": "1/13/Nature's_Wrath_Spellbook.png",
         "link": "Nature's_Wrath_Spellbook",
+        "abilityNote": "Charge Range = 0 to 4\nCharge Interval = +1",
         "abilities": [
             {
                 "name": "Basic Attack",
@@ -6899,10 +6900,9 @@
                 "mult": 0.33
             },
             {
-                "name": "Charged Solar Beam",
-                "type": "magicDmg",
-                "base": 660,
-                "mult": 2.5,
+                "name": "Solar Beam",
+                "base": "260 + (100 * Charge)",
+                "formula": "260 + (100 * Charge) + (37.5% Magic * Charge)",
                 "cd": 26
             }
         ]
@@ -6920,12 +6920,12 @@
         "release": "sp",
         "image": "c/c8/StaffofDreams-0.png",
         "link": "Staff_of_Dreams",
+        "abilityNote": "Charge Range = Unknown",
         "abilities": [
             {
-                "name": "Charged Basic Attack",
-                "type": "magicDmg",
-                "base": 320,
-                "mult": 1.7
+                "name": "Basic Attack",
+                "base": "160 to 320",
+                "formula": "(160 to 320) + (40% to 170% Magic)"
             },
             {
                 "name": "Bolt of Dreams",
@@ -8506,8 +8506,8 @@
             },
             {
                 "name": "Void Needle",
-                "type": "meleeDmg",
                 "base": 935,
+                "formula": "100% Melee - 562.5% Armor",
                 "cd": 3
             }
         ]
@@ -8869,18 +8869,22 @@
         "release": "rn",
         "image": "5/5b/Pureblood_Dagger.png",
         "link": "Pureblood_Dagger",
+        "abilityNote": "Damage Bonuses = Magic, Melee, Ranged\nHighestBonus = Highest Damage Bonus\nLowerBonuses = Remaining Damage Bonuses",
         "abilities": [
             {
                 "name": "Basic Attack",
-                "base": 175
+                "base": 175,
+                "formula": "200% HighestBonus - 100% LowerBonuses"
             },
             {
                 "name": "Blood Sap",
-                "base": 175
+                "base": 175,
+                "formula": "200% HighestBonus - 100% LowerBonuses"
             },
             {
                 "name": "+ HP per Blood Sap",
                 "base": 87.5,
+                "formula": "(200% HighestBonus - 100% LowerBonuses) / 2",
                 "cd": 16
             }
         ]
