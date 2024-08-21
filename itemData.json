@@ -7619,8 +7619,8 @@
     {
         "name": "Angel Greatsword",
         "special": "Holy Blast",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -7803,8 +7803,8 @@
     {
         "name": "Demon Greatsword",
         "special": "Demonfire Blitz",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -7846,8 +7846,8 @@
     {
         "name": "Fantastic Greatsword",
         "special": "Fantastic Beam",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -7935,8 +7935,8 @@
     {
         "name": "Frontier Greatsword",
         "special": "Eternity Beam",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 15000000,
             "max": 15000000
@@ -8098,8 +8098,8 @@
     {
         "name": "Honoring Blade",
         "special": "Magma Scorch",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -8493,8 +8493,8 @@
     {
         "name": "Whapper Sword",
         "special": "Magic Smash",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 555000,
             "max": 555000
@@ -8875,8 +8875,8 @@
     {
         "name": "The Jade Twin",
         "special": "Caster Form",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "rangedDmg"],
         "cost": {
             "min": 7000000,
             "max": 7000000
@@ -8907,8 +8907,8 @@
     {
         "name": "Eyeball of Reckoning Ultradagger",
         "special": "Eyeball of Reckoning",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": null,
             "max": null
@@ -8973,8 +8973,8 @@
     {
         "name": "Silver Crystal Ultradagger",
         "special": "Magic Blitz",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -9005,8 +9005,8 @@
     {
         "name": "Salamander",
         "special": "Fireball",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
         "cost": {
             "min": 500000,
             "max": 500000
@@ -9039,8 +9039,8 @@
     {
         "name": "Orange Salamander",
         "special": "Fireball",
-        "formalType": "melee",
-        "types": ["meleeDmg"],
+        "formalType": "hybrid",
+        "types": ["meleeDmg", "rangedDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -9071,8 +9071,8 @@
     {
         "name": "Green Salamander",
         "special": "Fireball",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "rangedDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -9103,8 +9103,8 @@
     {
         "name": "Purple Salamander",
         "special": "Fireball",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -9135,8 +9135,8 @@
     {
         "name": "White Salamander",
         "special": "Fireball",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
         "cost": {
             "min": null,
             "max": null
@@ -9169,8 +9169,8 @@
     {
         "name": "Black Salamander",
         "special": "Fireball",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
         "cost": {
             "min": null,
             "max": null
@@ -9203,8 +9203,8 @@
     {
         "name": "Gold Salamander",
         "special": "Fireball",
-        "formalType": "magic",
-        "types": ["magicDmg"],
+        "formalType": "hybrid",
+        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
         "cost": {
             "min": 10000000,
             "max": 10000000
