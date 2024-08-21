@@ -6636,6 +6636,7 @@
     {
         "name": "Blade of the Throne",
         "special": "Caster Form",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 6200000,
@@ -6665,6 +6666,7 @@
     {
         "name": "Brainstaff",
         "special": "Brain Bash",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 5000000,
@@ -6700,6 +6702,7 @@
     {
         "name": "Celestial Powers Spellbook",
         "special": "Fantastic Beamstorm",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 5000000,
@@ -6735,6 +6738,7 @@
     {
         "name": "Darktoad Spellbook",
         "special": "Echo of the Void",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 1200000,
@@ -6782,6 +6786,7 @@
     {
         "name": "Firesoul Spellbook",
         "special": "Meteor Blast",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 875000,
@@ -6811,6 +6816,7 @@
     {
         "name": "Frontier Spellbook",
         "special": "Eternal Form",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 15000000,
@@ -6870,11 +6876,13 @@
                 "mult": 3,
                 "cd": 22
             }
-        ]
+        ],
+        "formalType": "magic"
     },
     {
         "name": "Nature's Wrath Spellbook",
         "special": "Solar Beam",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 10000000,
@@ -6910,6 +6918,7 @@
     {
         "name": "Staff of Dreams",
         "special": "Bolt of Dreams",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 13000000,
@@ -6939,6 +6948,7 @@
     {
         "name": "Wicked Junk Spellbook",
         "special": "Rain of Toasters",
+        "formalType": "magic",
         "types": ["magicDmg"],
         "cost": {
             "min": 10000000,
@@ -6974,6 +6984,7 @@
     {
         "name": "Bronze Dagger",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 390,
@@ -6996,6 +7007,7 @@
     {
         "name": "Bronze Greatsword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 800,
@@ -7018,6 +7030,7 @@
     {
         "name": "Bronze Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 600,
@@ -7040,6 +7053,7 @@
     {
         "name": "Bronze Scimitar",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 600,
@@ -7062,6 +7076,7 @@
     {
         "name": "Iron Dagger",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 1600,
@@ -7084,6 +7099,7 @@
     {
         "name": "Iron Greatsword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 3100,
@@ -7106,6 +7122,7 @@
     {
         "name": "Iron Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 2400,
@@ -7128,6 +7145,7 @@
     {
         "name": "Iron Scimitar",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 2400,
@@ -7150,6 +7168,7 @@
     {
         "name": "Cobalt Dagger",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 9800,
@@ -7172,6 +7191,7 @@
     {
         "name": "Cobalt Greatsword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 20000,
@@ -7194,6 +7214,7 @@
     {
         "name": "Cobalt Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 14800,
@@ -7216,6 +7237,7 @@
     {
         "name": "Cobalt Scimitar",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 14800,
@@ -7238,6 +7260,7 @@
     {
         "name": "Titanium Dagger",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 39000,
@@ -7260,6 +7283,7 @@
     {
         "name": "Titanium Greatsword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 78000,
@@ -7282,6 +7306,7 @@
     {
         "name": "Titanium Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 60000,
@@ -7304,6 +7329,7 @@
     {
         "name": "Titanium Scimitar",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 60000,
@@ -7326,6 +7352,7 @@
     {
         "name": "Gold Dagger",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 97000,
@@ -7348,6 +7375,7 @@
     {
         "name": "Gold Greatsword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 190000,
@@ -7370,6 +7398,7 @@
     {
         "name": "Gold Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 150000,
@@ -7392,6 +7421,7 @@
     {
         "name": "Gold Scimitar",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 150000,
@@ -7414,6 +7444,7 @@
     {
         "name": "Onyx Dagger",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 200000,
@@ -7436,6 +7467,7 @@
     {
         "name": "Onyx Greatsword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 380000,
@@ -7458,6 +7490,7 @@
     {
         "name": "Onyx Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 300000,
@@ -7480,6 +7513,7 @@
     {
         "name": "Onyx Scimitar",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 300000,
@@ -7502,6 +7536,7 @@
     {
         "name": "Advanced Rapier",
         "special": "Rebound Strike",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 700000,
@@ -7531,6 +7566,7 @@
     {
         "name": "Ancient Sword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 290000,
@@ -7553,6 +7589,7 @@
     {
         "name": "Ancient Treesword",
         "special": "Greater Uppercut",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 2100000,
@@ -7582,7 +7619,8 @@
     {
         "name": "Angel Greatsword",
         "special": "Holy Blast",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -7624,6 +7662,7 @@
     {
         "name": "Blacksmith's Hammer",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 500000,
@@ -7646,6 +7685,7 @@
     {
         "name": "Buzzing Sword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 400000,
@@ -7668,6 +7708,7 @@
     {
         "name": "Contramagic Blade",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 465000,
@@ -7690,6 +7731,7 @@
     {
         "name": "Corrupted Rapier",
         "special": "Dark Charge",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 2100000,
@@ -7719,6 +7761,7 @@
     {
         "name": "Crypt Blade",
         "special": "Critical Rush",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 5500000,
@@ -7760,7 +7803,8 @@
     {
         "name": "Demon Greatsword",
         "special": "Demonfire Blitz",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 5000000,
             "max": 5000000
@@ -7802,7 +7846,8 @@
     {
         "name": "Fantastic Greatsword",
         "special": "Fantastic Beam",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -7831,6 +7876,7 @@
     {
         "name": "Featherblade",
         "special": "Glide Spin",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 220000,
@@ -7866,6 +7912,7 @@
     {
         "name": "Frail Wooden Sword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 8,
@@ -7888,7 +7935,8 @@
     {
         "name": "Frontier Greatsword",
         "special": "Eternity Beam",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 15000000,
             "max": 15000000
@@ -7938,6 +7986,7 @@
     {
         "name": "Grandsword",
         "special": "Grand Smash",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 660000,
@@ -7967,6 +8016,7 @@
     {
         "name": "Grass Rapier",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 300000,
@@ -7989,6 +8039,7 @@
     {
         "name": "Great Scimitar",
         "special": "Threefold Advance",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 200000,
@@ -8024,6 +8075,7 @@
     {
         "name": "Hammer Knight's Hammer",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 350000,
@@ -8046,7 +8098,8 @@
     {
         "name": "Honoring Blade",
         "special": "Magma Scorch",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -8094,6 +8147,7 @@
     {
         "name": "Hook Scythe",
         "special": "Double Spin",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 290000,
@@ -8129,6 +8183,7 @@
     {
         "name": "Inferno Hammer",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": null,
@@ -8151,6 +8206,7 @@
     {
         "name": "Inferno Sword",
         "special": "None",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 320000,
@@ -8173,6 +8229,7 @@
     {
         "name": "Jade Superhammer",
         "special": "Charge Slam",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 3000000,
@@ -8202,6 +8259,7 @@
     {
         "name": "Kotono",
         "special": "Cleave Strike",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 770000,
@@ -8231,6 +8289,7 @@
     {
         "name": "Power Axe",
         "special": "Jump Strike",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 720000,
@@ -8260,6 +8319,7 @@
     {
         "name": "Red King Greatsword",
         "special": "Blade of Rage",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 5000000,
@@ -8295,6 +8355,7 @@
     {
         "name": "Red Power Fists",
         "special": "Echo Punch",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 5000000,
@@ -8324,6 +8385,7 @@
     {
         "name": "Rusted Coin Scythe",
         "special": "Siphon Spin",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 2200000,
@@ -8359,6 +8421,7 @@
     {
         "name": "Tri-Blade Shifter",
         "special": "Change Stance",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 15000000,
@@ -8400,6 +8463,7 @@
     {
         "name": "Ultrablade",
         "special": "Ultra Charge",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 1200000,
@@ -8429,7 +8493,8 @@
     {
         "name": "Whapper Sword",
         "special": "Magic Smash",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 555000,
             "max": 555000
@@ -8458,6 +8523,7 @@
     {
         "name": "Zodsword",
         "special": "Blessed Dive",
+        "formalType": "melee",
         "types": ["meleeDmg"],
         "cost": {
             "min": 2400000,
@@ -8487,7 +8553,8 @@
     {
         "name": "Void Spike Ultradagger",
         "special": "Void Needle",
-        "types": ["armor", "meleeDmg"],
+        "formalType": "melee",
+        "types": ["armor"],
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -8515,6 +8582,7 @@
     {
         "name": "Crossbow",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 10000,
@@ -8549,6 +8617,7 @@
     {
         "name": "Dragon King's Lance",
         "special": "Dragon's Charge",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 5000000,
@@ -8578,6 +8647,7 @@
     {
         "name": "Frontier Stargun",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 15000000,
@@ -8600,6 +8670,7 @@
     {
         "name": "Funky Driftlander",
         "special": "Spinboost",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 7070000,
@@ -8629,6 +8700,7 @@
     {
         "name": "Gilded Rifle",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 5000000,
@@ -8651,6 +8723,7 @@
     {
         "name": "Gunfists",
         "special": "Gatling Mode",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 8000000,
@@ -8680,6 +8753,7 @@
     {
         "name": "Hunting Rifle",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 700000,
@@ -8702,6 +8776,7 @@
     {
         "name": "Marksman's Rifle",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 1800000,
@@ -8724,6 +8799,7 @@
     {
         "name": "Pellet Gun",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 5000,
@@ -8746,6 +8822,7 @@
     {
         "name": "Pipe Rifle",
         "special": "None",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 450000,
@@ -8768,6 +8845,7 @@
     {
         "name": "Ratboy Handgun",
         "special": "Divine Shot",
+        "formalType": "ranged",
         "types": ["rangedDmg"],
         "cost": {
             "min": 25000000,
@@ -8797,7 +8875,8 @@
     {
         "name": "The Jade Twin",
         "special": "Caster Form",
-        "types": ["magicDmg", "rangedDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 7000000,
             "max": 7000000
@@ -8828,7 +8907,8 @@
     {
         "name": "Eyeball of Reckoning Ultradagger",
         "special": "Eyeball of Reckoning",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": null,
             "max": null
@@ -8859,7 +8939,8 @@
     {
         "name": "Pureblood Dagger",
         "special": "Blood Sap",
-        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "formalType": "unique",
+        "types": ["magicDmg"],
         "cost": {
             "min": 6600000,
             "max": 6600000
@@ -8892,7 +8973,8 @@
     {
         "name": "Silver Crystal Ultradagger",
         "special": "Magic Blitz",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -8923,7 +9005,8 @@
     {
         "name": "Salamander",
         "special": "Fireball",
-        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 500000,
             "max": 500000
@@ -8956,7 +9039,8 @@
     {
         "name": "Orange Salamander",
         "special": "Fireball",
-        "types": ["meleeDmg", "rangedDmg"],
+        "formalType": "melee",
+        "types": ["meleeDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -8987,7 +9071,8 @@
     {
         "name": "Green Salamander",
         "special": "Fireball",
-        "types": ["magicDmg", "rangedDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -9018,7 +9103,8 @@
     {
         "name": "Purple Salamander",
         "special": "Fireball",
-        "types": ["magicDmg", "meleeDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 2500000,
             "max": 2500000
@@ -9049,7 +9135,8 @@
     {
         "name": "White Salamander",
         "special": "Fireball",
-        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": null,
             "max": null
@@ -9082,7 +9169,8 @@
     {
         "name": "Black Salamander",
         "special": "Fireball",
-        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": null,
             "max": null
@@ -9115,7 +9203,8 @@
     {
         "name": "Gold Salamander",
         "special": "Fireball",
-        "types": ["magicDmg", "meleeDmg", "rangedDmg"],
+        "formalType": "magic",
+        "types": ["magicDmg"],
         "cost": {
             "min": 10000000,
             "max": 10000000
@@ -9148,6 +9237,7 @@
     {
         "name": "Gnome Rocket Launcher",
         "special": "None",
+        "formalType": "unique",
         "types": [],
         "cost": {
             "min": 50000000,
